@@ -15,7 +15,7 @@
     $username = $_SESSION['username'];
 
 
-   // odeslání nového přís
+   // odeslání nového příspěvku
 
 if(isset($_POST) & !empty($_POST)){
 	$nazev_prispevku = mysqli_real_escape_string($connection, $_POST['nazev_prispevku']);
