@@ -11,7 +11,7 @@
 	}
 
 
-    // v session je uložené uživatelské jméno - může se zobrazit
+    // v session je uložené uživatelské jméno - může se zobrazi
     $username = $_SESSION['username'];
 
 
@@ -38,7 +38,7 @@ if(isset($_POST) & !empty($_POST)){
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Vítejte</title>
+<title>Vítejte</title>g
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
     
